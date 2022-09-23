@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Testy-Kitchen</title>
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Amatic+SC"
+    />
+    <link rel="stylesheet" href="contact.css" />
+  </head>
+  <body>
+    <div class="navbar">
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/menu.html" id="menu">Menu </a></li>
+        <li><a href="/about.html">About</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </div>
+    <div class="container">
+      <form action="#">
+        <h1 for="">
+          Reserve a table, ask for today's special or just send us a message:
+        </h1>
+        <label for="fname">First Name:</label>
+        <input
+          type="text"
+          id="fname"
+          name="fname"
+          placeholder="Enter your first name"
+        />
+        <label for="lname">Last Name:</label>
+        <input
+          type="text"
+          name="lname"
+          id="lname"
+          placeholder="Enter your last name"
+        />
+        <label for="country">Country</label>
+        <select name="country" id="country">
+          <option value="india">India</option>
+          <option value="usa">USA</option>
+          <option value="england">England</option>
+        </select>
+
+        <label for="subject">Message</label>
+        <textarea name="subject" id="subject" cols="20" rows="5">
+Write something..</textarea
+        >
+        <input type="submit" value="Send Message" />
+      </form>
+    </div>
+  </body>
+</html>

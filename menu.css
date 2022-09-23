@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: "Amatic SC", sans-serif;
+  background-image: url(/Images/Menu-card.jpg);
+  background-repeat: no-repeat;
+  background-position: absolute;
+  background-size: cover;
+}
+ul {
+  background-color: black;
+  opacity: white;
+  display: inline-block;
+  list-style-type: none;
+  width: 100%;
+  padding-left: 440px;
+}
+ul li {
+  float: left;
+  margin: 20px;
+}
+ul li a {
+  text-decoration: none;
+  color: white;
+  margin: 7px;
+  padding: 10px;
+  font-size: 25px;
+}
+ul li a:hover {
+  color: black;
+  background-color: gray;
+}
+
+#box {
+  background: rgb(0, 0, 0); /* Fallback color */
+  background: rgba(0, 0, 0, 0.5); /* Black background with 0.5 opacity */
+  height: 200px;
+  width: 250px;
+  color: white;
+  margin-left: 550px;
+  margin-top: 150px;
+  padding: 15px;
+}
+#box h1 {
+  margin-top: 15px;
+  margin-bottom: 7px;
+  text-align: center;
+}
+
+#box p {
+  margin-top: 20px;
+  text-align: center;
+}
